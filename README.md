@@ -13,6 +13,6 @@ $ mvn clean test
 **Important:** you need to modify the value of the `os.classifier` property in [`pom.xml`](pom.xml) to match the operating system you are using:
 ```XML
 <!-- Valid classifiers for javacpp-presets are android-arm, linux-ppc64le, linux-x86, macosx-x86_64 and windows-x86. -->
- <os.classifier>macosx-x86_64</os.classifier>
+<os.classifier>macosx-x86_64</os.classifier>
 ```
 By default it is set to `macosx-x86_64` (as shown).
